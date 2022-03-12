@@ -1,0 +1,36 @@
+{
+  "name": "icon-test",
+  "version": "1.0.0",
+  "main": "icon-test.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "rollup --config",
+    "build-watch": "rollup --config --watch",
+    "test": "jest ./src",
+    "test-watch": "jest ./src --watch"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.17.5",
+    "@babel/plugin-transform-modules-commonjs": "^7.16.8",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/preset-react": "^7.16.7",
+    "@rollup/plugin-commonjs": "^21.0.2",
+    "@rollup/plugin-node-resolve": "^13.1.3",
+    "@rollup/plugin-typescript": "^8.3.1",
+    "@types/jest": "^27.4.1",
+    "@types/react": "^17.0.39",
+    "babel-jest": "^27.5.1",
+    "babel-loader": "^8.2.3",
+    "html-webpack-plugin": "^5.5.0",
+    "jest": "^27.5.1",
+    "jest-cli": "^27.5.1",
+    "prettier": "^2.5.1",
+    "rollup": "^2.69.1",
+    "ts-jest": "^27.1.3",
+    "typescript": "^4.6.2"
+  },
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}
